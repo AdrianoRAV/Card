@@ -3,7 +3,7 @@
 
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/textPostage"
+    android:id="@+id/textPo"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="6dp"
@@ -42,12 +42,6 @@
                 android:layout_marginTop="10dp"
                 android:scaleType="centerCrop"
                 app:srcCompat="@drawable/imagem1" />
-
-            <TextView
-                android:id="@+id/textPostage"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="To de Ferias" />
 
         </LinearLayout>
 

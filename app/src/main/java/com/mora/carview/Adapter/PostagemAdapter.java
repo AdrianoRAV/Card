@@ -26,7 +26,7 @@ public class PostagemAdapter extends RecyclerView.Adapter<PostagemAdapter.MyView
     public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
 
     holder.textNome.setText("Adrianno");
-    holder.textPostage.setText("Lugar top");
+    //holder.textPostage.setText("Lugar top");
     holder.imagemPostagem.setImageResource(R.drawable.imagem2);
     }
 
@@ -38,13 +38,13 @@ public class PostagemAdapter extends RecyclerView.Adapter<PostagemAdapter.MyView
     public  class MyViewHolder extends RecyclerView.ViewHolder {
 
         private TextView textNome;
-        private TextView textPostage;
+        //private TextView textPostage;
         private ImageView imagemPostagem;
 
         public MyViewHolder(@NonNull View itemView) {
             super(itemView);
-            textNome = itemView.findViewById(R.id.textPostage);
-            textPostage = itemView.findViewById(R.id.textPostage);
+            textNome = itemView.findViewById(R.id.textPo);
+          //  textPostage = itemView.findViewById(R.id.textPo);
             imagemPostagem = itemView.findViewById(R.id.imagePostagem);
         }
     }
